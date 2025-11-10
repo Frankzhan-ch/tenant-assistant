@@ -3,6 +3,7 @@ openai==1.51.0
 langchain==0.2.14
 langchain-community==0.2.12
 langchain-openai==0.1.22
+
 faiss-cpu==1.8.0.post1
 pymupdf==1.24.10
 pandas==2.2.2
