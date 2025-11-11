@@ -1590,4 +1590,3 @@ with tab2:
                 )
 
 st.markdown("---")
-st.caption("🏠 Tenancy Assistant v5.0 (SMTP Ready) | Built with Streamlit & OpenAI | Enhanced with Citations, ROUGE Scores & Detailed Host Information")
