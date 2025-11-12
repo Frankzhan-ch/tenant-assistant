@@ -1150,7 +1150,7 @@ with tab1:
                     rouge_l_precision = msg["rouge_scores"]["ROUGE-L-Precision"]
                     
                     # Display ROUGE-L Precision with 3-tier color coding
-                    if rouge_l_precision > 0.6:
+                    if rouge_l_precision > 0.7:
                         st.success(f"✅ **ROUGE-L Precision: {rouge_l_precision:.4f}** (High)")
                         st.caption("Answer is well-grounded in source text")
                     elif rouge_l_precision >= 0.3:
