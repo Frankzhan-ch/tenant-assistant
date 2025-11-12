@@ -1145,7 +1145,7 @@ with tab1:
                         st.markdown('</div>', unsafe_allow_html=True)
 
             if "rouge_scores" in msg and msg["rouge_scores"] and "error" not in msg["rouge_scores"]:
-                with st.expander("📊 ROUGE-L Precision)", expanded=False):
+                with st.expander("📊 ROUGE-L Precision", expanded=False):
                     st.markdown('<div class="rouge-score">', unsafe_allow_html=True)
                     rouge_l_precision = msg["rouge_scores"]["ROUGE-L-Precision"]
                     
